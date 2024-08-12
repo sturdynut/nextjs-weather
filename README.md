@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather App
+
+This is a weather app so it will keep track of current weather conditions and ensure you are always prepared!
 
 ## Getting Started
 
-First, run the development server:
+1. Review user story, acceptance criteria and details below
+2. Discuss Approach
+3. Begin Work
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## User Story
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As a world traveler 🌍
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In order to be prepared for weather conditions ☀️
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I want to know the weather for any city 🏙
 
-## Learn More
+Acceptance criteria:
 
-To learn more about Next.js, take a look at the following resources:
+1. Can search for weather by city name
+2. City name must be >3 characters
+3. Should initially use my current location to get weather
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Implementation notes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- You do not have to use a real API. Feel free to create an API route and return mock data. This is encouraged.
